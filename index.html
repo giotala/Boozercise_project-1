@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html class = "no-js" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BOOZERCIZE ABG</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.indigo-pink.min.css">
+    <link rel="stylesheet" href="material.css">
+</head>
+<body>
+  <header class="mdc-top-app-bar">
+		<!-- BD removed nav bar icon buttons and kept fav heart  -->
+		<div class="mdc-top-app-bar__row">
+			  <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
+				<span class="mdc-top-app-bar__title">BOOZERCIZE</span>
+			  <button class="material-icons mdc-top-app-bar__action-item mdc-icon-button" aria-label="Favorite">favorite</button>
+			  </section>
+			</section>
+		  </div>
+		</header>
+
+  <aside id="my-mdc-dialog" class="mdc-dialog" role="alertdialog" aria-labelledby="my-mdc-dialog-label" aria-describedby="my-mdc-dialog-description">
+		<div class="mdc-dialog__surface">
+			<header class="mdc-dialog__header">
+				<h2 id="my-mdc-dialog-label" class="mdc-dialog__header__title">
+					Are you 21 and over?
+				</h2>
+			</header>
+			<section id="my-mdc-dialog-description" class="mdc-dialog__body">
+				<img class="img2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTLtC9ndbwrIwnlyFdbqhFOqH_50CcfJpS9eg&usqp=CAU" alt="alcohol">
+			</section>
+			<footer class="mdc-dialog__footer">
+				<button type="button" class="mdc-button mdc-dialog__footer__button mdc-dialog__footer__button--cancel">Decline</button>
+				<a href="fitness_calculator.html"><button type="button" class=" acceptBtn mdc-button mdc-dialog__footer__button mdc-dialog__footer__button--accept">Accept</button></a>
+			</footer>
+		</div>
+		<div class="mdc-dialog__backdrop"></div>
+  </aside>
+  
+  <H2 style="padding-top: 300px;">Sorry we can't let<br> you in only 21 and Over(=>)!<br>
+    <img class="cat img1" src="https://media0.giphy.com/media/l41lOhCfTIK9ZetnW/source.gif" alt="sad cat"></H2>
+      <script src="https://unpkg.com/@material/dialog@0.39.0/dist/mdc.dialog.js"/>
+    
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    
+    <script src="material.js"></script>
+</body>
+</html>
